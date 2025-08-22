@@ -1,0 +1,8 @@
+/target
+/temp
+/.vscode
+/videos
+README.md
+dockerfile
+.gitignore
+.gitlab-ci.yml

@@ -1,0 +1,22 @@
+[package]
+name = "reporter-cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+async-trait = "0.1.89"
+clap = { version = "4.5.45", features = ["derive"] }
+hound = "3.5.1"
+image = { version = "0.25.6", features = ["jpeg", "png"] }
+log = "0.4.27"
+openai = "1.1.1"
+rayon = "1.11.0"
+regex = "1.11.1"
+reqwest = { version = "0.12.23", features = ["json"] }
+sanitize-filename = "0.6.0"
+scraper = "0.24.0"
+serde = "1.0.219"
+serde_json = "1.0.143"
+thiserror = "2.0.14"
+tokio = { version = "1.47.1", features = ["full"] }
+uuid = { version = "1.18.0", features = ["v4", "v7"] }
